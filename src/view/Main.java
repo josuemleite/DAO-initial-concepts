@@ -1,12 +1,13 @@
 package view;
 
+import model.ModelException;
 import model.Post;
 import model.User;
 import model.dao.MySQLPostDAO;
 import model.dao.PostDAO;
 
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ModelException {
 		Post p = new Post(11);
 //		p.setContent("Primeiro post via DAO 3");
 		
